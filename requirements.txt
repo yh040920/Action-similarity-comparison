@@ -1,0 +1,12 @@
+json_tricks==3.17.3
+matplotlib==3.7.3
+mmcv==2.0.1
+mmcv_full==1.5.3
+mmdet==3.1.0
+mmengine==0.8.5
+mmpose.egg==info
+numpy==1.25.2
+opencv_python==4.8.0.76
+PyQt5==5.15.10
+PyQt5_sip==12.13.0
+torch==1.13.1+cu116
