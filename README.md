@@ -1,10 +1,13 @@
-# 主要步骤：
+# Introduction
+This code is based on mmpose, using human posture key point recognition, and calculating the similarity of the two sets of identified key points for action comparison
 
-1、按照MMPose官方安装方法，安装[MMPose](https://mmpose.readthedocs.io/en/latest/installation.html)。
+# Procedures：
 
-2、在创建好的环境中安装依赖项：`pip install -r requirements.txt`
+1、Follow the official MMPose installation method and install[MMPose](https://mmpose.readthedocs.io/en/latest/installation.html)。
 
-3、下载[rtmdet权重](https://download.openmmlab.com/mmdetection/v3.0/rtmdet/cspnext_rsb_pretrain/cspnext-m_8xb256-rsb-a1-600e_in1k-ecb3bbd9.pth)和[rtmpose权重](https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/rtmpose-m_simcc-aic-coco_pt-aic-coco_420e-256x192-63eb25f7_20230126.pth)到checkpoints文件夹下。
+2、Install dependencies in the created environment：`pip install -r requirements.txt`
 
-4、运行program.py文件。
+3、Download[rtmdet checkpoint](https://download.openmmlab.com/mmdetection/v3.0/rtmdet/cspnext_rsb_pretrain/cspnext-m_8xb256-rsb-a1-600e_in1k-ecb3bbd9.pth)和[rtmpose checkpoint](https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/rtmpose-m_simcc-aic-coco_pt-aic-coco_420e-256x192-63eb25f7_20230126.pth)到checkpoints文件夹下。
+
+4、run program.py。
 
